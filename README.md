@@ -56,8 +56,8 @@ class SadykovSergey:
 ```python
   def interested(self):
     interest = "Music, Backend, Life"
-    return f'Интересы {self.name}: {interest}\n
-             Скилы: {self.skillz}'
+        return (f'Интересы: {self.name}: {interest}\n '
+                f'Скилы: {self.skillz}')
 ```
 
 #### Метод `currently_learning(self)`
