@@ -8,7 +8,7 @@ SadykovSergey - это класс, который представляет ин�
       def __init__(self):
       self.name = 'Sergey Sadykov'
       
-      self.skillz = ['Pyhton','CSV','JSON','cv2','numpy',
+      self.skillz = ['Pyhton','CSV', 'SQLite', 'JSON','cv2','numpy',
                     'matplotlib','Pandas','BeautifulSoup']
       
       def interested(self):
