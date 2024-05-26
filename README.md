@@ -6,23 +6,23 @@ SadykovSergey - это класс, который представляет ин�
     Class SadykovSergey:
     
       def __init__(self):
-      self.name = 'Sergey Sadykov'
+          self.name = 'Sergey Sadykov'
       
-      self.skillz = ['Pyhton','CSV', 'SQLite', 'JSON','cv2','numpy',
-                    'matplotlib','Pandas','BeautifulSoup']
+          self.skillz = ['Pyhton','CSV', 'SQLite', 'JSON','cv2','numpy',
+                         'matplotlib','Pandas','BeautifulSoup']
       
       def interested(self):
-        interest = "Music, Backend, Life"
-            return (f'Интересы: {self.name}: {interest}\n '
-                    f'Скилы: {self.skillz}')
+          interest = "Music, Backend, Life"
+          return (f'Интересы: {self.name}: {interest}\n '
+                  f'Скилы: {self.skillz}')
   
       def currently_learning(self):
-        print("Django")
+          print("Django")
 
       def reach_me(self):
-        telegram = @ggbee
-        mail = 'g.bee@bk.ru'
-        return telegram, mail
+          telegram = @ggbee
+          mail = 'g.bee@bk.ru'
+          return telegram, mail
 
 
 
