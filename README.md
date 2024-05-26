@@ -50,13 +50,13 @@ class SadykovSergey:
 Возвращает строку с интересами Сергея.
 
 ##### Возвращаемое значение
-- `interest` (str): Строка с интересами и скилами
+- `interest` (str): Строка с интересами и навыками
 
 
 ```python
   def interested(self):
     interest = "Music, Backend, Life"
-    return f'Интересы {self.name}: {interest}
+    return f'Интересы {self.name}: {interest}\n
              Скилы: {self.skillz}'
 ```
 
@@ -83,19 +83,6 @@ class SadykovSergey:
     telegram = '@ggbee'
     mail = 'g.bee@bk.ru'
     return telegram, mail
-```
-
-### Основной блок
-Создает экземпляр класса `SadykovSergey` и вызывает методы для отображения информации.
-
-```python
-if __name__ == '__main__':
-    sergey = SadykovSergey()
-    print(sergey.name)
-    print(sergey.skillz)
-    print(sergey.interested())
-    sergey.currently_learning()
-    print(sergey.reach_me())
 ```
 
 <!---
