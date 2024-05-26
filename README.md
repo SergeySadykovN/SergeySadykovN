@@ -50,19 +50,21 @@ class SadykovSergey:
 Возвращает строку с интересами Сергея.
 
 ##### Возвращаемое значение
-- `interest` (str): Строка с интересами.
+- `interest` (str): Строка с интересами и скилами
+
 
 ```python
   def interested(self):
     interest = "Music, Backend, Life"
-    return interest
+    return f'Интересы {self.name}: {interest}
+             Скилы: {self.skillz}'
 ```
 
 #### Метод `currently_learning(self)`
 Печатает, что Сергей в настоящее время изучает Django.
 
 ##### Возвращаемое значение
-- None
+- None # пока)
 
 ```python
   def currently_learning(self):
