@@ -13,7 +13,8 @@ SadykovSergey - это класс, который представляет ин�
       
       def interested(self):
         interest = "Music, Backend, Life"
-            return interest
+            return (f'Интересы: {self.name}: {interest}\n '
+                    f'Скилы: {self.skillz}')
   
       def currently_learning(self):
         print("Django")
