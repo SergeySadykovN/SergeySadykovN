@@ -8,7 +8,7 @@ SadykovSergey - это класс, который представляет ин�
       def __init__(self):
           self.name = 'Sergey Sadykov'
       
-          self.skillz = ['Pyhton','CSV', 'SQLite', 'JSON','cv2','numpy',
+          self.skillz = ['Pyhton', 'Django', FastApi,
                          'matplotlib','Pandas','BeautifulSoup']
       
       def interested(self):
@@ -17,7 +17,7 @@ SadykovSergey - это класс, который представляет ин�
                   f'Скилы: {self.skillz}')
   
       def currently_learning(self):
-          print("Django")
+          print("Django", "FasttApi")
 
       def reach_me(self):
           telegram = @ggbee
@@ -44,7 +44,8 @@ class SadykovSergey:
 
   def __init__(self):
     self.name = 'Sergey Sadykov'
-    self.skillz = ['Python', 'CSV', 'JSON', 'cv2', 'numpy', 'matplotlib', 'Pandas', 'BeautifulSoup']
+    self.skillz = ['Pyhton', 'Django', FastApi,
+                         'matplotlib','Pandas','BeautifulSoup']
 ```
 
 #### Метод `interested(self)`
@@ -64,12 +65,10 @@ class SadykovSergey:
 #### Метод `currently_learning(self)`
 Печатает, что Сергей в настоящее время изучает Django.
 
-##### Возвращаемое значение
-- None # пока)
 
 ```python
   def currently_learning(self):
-    print("Django")
+    print("Django", "FastApi")
 ```
 
 #### Метод `reach_me(self)`
