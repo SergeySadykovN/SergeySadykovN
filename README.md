@@ -21,7 +21,7 @@ SadykovSergey - это класс, который представляет ин�
 
       def reach_me(self):
           telegram = @ggbee
-          mail = 'g.bee@bk.ru'
+          mail = 'snsadykov@ya.ru'
           return telegram, mail
 
 
@@ -81,7 +81,7 @@ class SadykovSergey:
 ```python
   def reach_me(self):
     telegram = '@ggbee'
-    mail = 'g.bee@bk.ru'
+    mail = 'snsadykov@ya.ru'
     return telegram, mail
 ```
 
