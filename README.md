@@ -1,6 +1,6 @@
 # SadykovSergey
 
-SadykovSergey - это класс, который представляет информацию о Сергее Садыкове, включая его навыки, интересы, текущие учебные проекты и контактные данные.
+SadykovSergey - представляет информацию о Сергее Садыкове, включая его навыки, интересы, текущие проекты и контактные данные.
 
     
     Class SadykovSergey:
@@ -17,73 +17,12 @@ SadykovSergey - это класс, который представляет ин�
                   f'Скилы: {self.skillz}')
   
       def currently_learning(self):
-          print("Django", "FasttApi")
+          print("С#")
 
       def reach_me(self):
           telegram = @ggbee
           mail = 'snsadykov@ya.ru'
           return telegram, mail
-
-
-
-
-## Описание функций
-
-### Класс `SadykovSergey`
-Класс содержит основные методы для отображения информации о Сергее Садыкове.
-
-#### Метод `__init__(self)`
-Инициализирует атрибуты `name` и `skillz`.
-
-##### Атрибуты
-- `self.name` (str): Имя Сергея Садыкова.
-- `self.skillz` (list): Список навыков.
-
-```python
-class SadykovSergey:
-
-  def __init__(self):
-    self.name = 'Sergey Sadykov'
-    self.skillz = ['Pyhton', 'Django', FastApi,
-                         'matplotlib','Pandas','BeautifulSoup']
-```
-
-#### Метод `interested(self)`
-Возвращает строку с интересами Сергея.
-
-##### Возвращаемое значение
-- `interest` (str): Строка с интересами и навыками
-
-
-```python
-  def interested(self):
-    interest = "Music, Backend, Life"
-        return (f'Интересы: {self.name}: {interest}\n '
-                f'Скилы: {self.skillz}')
-```
-
-#### Метод `currently_learning(self)`
-Печатает, что Сергей в настоящее время изучает Django.
-
-
-```python
-  def currently_learning(self):
-    print("Django", "FastApi")
-```
-
-#### Метод `reach_me(self)`
-Возвращает контактные данные Сергея: Telegram и email.
-
-##### Возвращаемое значение
-- `telegram` (str): Логин в Telegram.
-- `mail` (str): Email адрес.
-
-```python
-  def reach_me(self):
-    telegram = '@ggbee'
-    mail = 'snsadykov@ya.ru'
-    return telegram, mail
-```
 
 <!---
 SergeySadykovN/SergeySadykovN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
