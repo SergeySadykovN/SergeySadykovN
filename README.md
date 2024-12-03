@@ -8,8 +8,7 @@ SadykovSergey - представляет информацию о Сергее С
       def __init__(self):
           self.name = 'Sergey Sadykov'
       
-          self.skillz = ['Pyhton', 'Django', FastApi,
-                         'matplotlib','Pandas','BeautifulSoup']
+          self.skillz = ['Python', 'Django', FastApi]
       
       def interested(self):
           interest = "Music, Backend, Life"
